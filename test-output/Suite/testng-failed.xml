@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Practice.NonStaticMethod">
+        <methods>
+          <include name="Sample"/>
+        </methods>
+      </class> <!-- Practice.NonStaticMethod -->
+      <class name="Practice.AddProducttocart">
+        <methods>
+          <include name="tc_001_AddProducttocart"/>
+        </methods>
+      </class> <!-- Practice.AddProducttocart -->
+      <class name="Practice.AddLowestProductToCart">
+        <methods>
+          <include name="amConfig"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="tc_001_AddProducttocart"/>
+          <include name="acConfig"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+        </methods>
+      </class> <!-- Practice.AddLowestProductToCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
